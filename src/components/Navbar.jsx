@@ -10,11 +10,10 @@ const Navbar = () => {
         </div>
         <nav className="hidden md:flex items-center gap-6 text-slate-600">
           <a href="#track" className="hover:text-slate-900 transition">Track</a>
-          <a href="#map" className="hover:text-slate-900 transition">Live Map</a>
-          <a href="#stats" className="hover:text-slate-900 transition">Stats</a>
+          <a href="#dashboard" className="hover:text-slate-900 transition">Dashboard</a>
           <a href="#support" className="hover:text-slate-900 transition">Support</a>
         </nav>
-        <button className="ml-4 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm font-medium">Sign In</button>
+        <a href="#dashboard" className="ml-4 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm font-medium">Sign In</a>
       </div>
     </header>
   );
